@@ -1,0 +1,16 @@
+// Non-modular or client styles for .l-footer region.
+
+.section-footer {
+    background: $tuatara;
+    padding: 1.5rem 0;
+    color: $white;
+    border-bottom: 5px solid $primary-color;
+
+    h2, h3 {
+        color: $white;
+    }
+
+    iframe {
+        max-height: 400px;
+    }
+}

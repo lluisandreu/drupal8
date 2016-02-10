@@ -1,0 +1,14 @@
+// Non-modular or client styles for the .l-content region.
+
+.section-search {
+    background: $tuatara;
+    padding: 1.5rem 0;
+
+    input {
+        margin-bottom: 0;
+    }
+}
+
+.section-content {
+    padding: 1.5rem 0;
+}

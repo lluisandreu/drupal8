@@ -1,0 +1,17 @@
+// Non-modular or client styles for .l-header region.
+
+.section-header {
+    background-image: url("../images/bgimage.jpg");
+    background-size: cover;
+    background-position: left top;
+
+    .gradient {
+        padding: 2rem 0;
+
+        @include vertical-black-transparent-gradient;
+    }
+
+    .header-right {
+        text-align: right;
+    }
+}

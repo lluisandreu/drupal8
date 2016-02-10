@@ -1,0 +1,15 @@
+#block-grimalt-main-menu {
+    ul.menu {
+        float: right;
+
+        @include inline-list;
+
+        li {
+            text-transform: uppercase;
+        }
+
+        li a {
+            color: $white;
+        }
+    }
+}

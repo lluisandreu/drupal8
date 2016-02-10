@@ -1,0 +1,40 @@
+name: Grimalt theme - Foundation subtheme
+description: "Custom sub-theme, inherits from the Foundation base theme read <a href=\"http://foundation.zurb.com/docs/index.php\">framework documentation</a>"
+core: 8.x
+type: theme
+base theme: zurb_foundation
+
+# Image appears on admin/appearance
+# screenshot: images/screenshot.jpg
+
+# Uncomment these lines and change "STARTER" to your theme name if you
+# need to add custom CSS or JS
+libraries:
+ - grimalt/global
+
+# Regions are output in the page.html.twig
+
+regions:
+  header_right: Header right
+  nav: Header Nav region 
+  notice: Header Highlighted
+  search: Search
+  content: Content
+  footer_first: 'Footer first column'
+  footer_last: 'Footer last column'
+  left_off_canvas: 'Left off canvas'
+  right_off_canvas: 'Right off canvas'
+
+  ## Getting an error without these regions
+  sidebar_first: "Sidebar First"
+  sidebar_second: "Sidebar Second"
+
+# Hidden regions
+# regions_hidden[]: Page top
+# regions_hidden[]: Page bottom
+
+features:
+  - logo
+  - name
+  - slogan
+  - favicon

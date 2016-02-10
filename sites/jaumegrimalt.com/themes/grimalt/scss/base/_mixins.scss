@@ -1,0 +1,18 @@
+// @file
+// Place your mixins here. Feel free to roll your own mixins.
+
+@mixin vertical-black-transparent-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,7db9e8+96&1+0,0.01+58,0.01+100 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(76, 112, 140, 0.01) 58%, rgba(125, 185, 232, 0.01) 96%, rgba(125, 185, 232, 0.01) 100%);
+
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(76, 112, 140, 0.01) 58%, rgba(125, 185, 232, 0.01) 96%, rgba(125, 185, 232, 0.01) 100%);
+
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(76, 112, 140, 0.01) 58%, rgba(125, 185, 232, 0.01) 96%, rgba(125, 185, 232, 0.01) 100%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#037db9e8',GradientType=0 );
+
+    /* IE6-9 */
+}
