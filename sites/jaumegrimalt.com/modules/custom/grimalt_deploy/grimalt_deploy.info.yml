@@ -1,0 +1,4 @@
+name: "Jaume Grimalt Deploy Module"
+description: "Custom functions for JGrimalt site"
+core: 7.x
+version: 7.x-1.0
